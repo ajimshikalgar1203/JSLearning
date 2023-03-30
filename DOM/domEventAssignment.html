@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Add Hobbies </title>
+</head>
+
+<body id="body">
+    <br><br><br>
+    <button type="button" id="button"> Add Hobbies </button>
+    <div class="hobbies">
+
+    </div>
+
+    <script>
+        const selectHobbies = document.querySelector("#button");
+        selectHobbies.addEventListener("click", () => {
+            const inputValue = prompt("Enter your Hobbies", "Hobbies");
+            console.log(inputValue);
+        });
+
+    </script>
+  </body>
+  </html>
